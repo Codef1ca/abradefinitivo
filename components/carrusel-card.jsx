@@ -16,6 +16,7 @@ import  Card11 from "@/components/card11";
 import  Card12 from "@/components/card12";
 import  Card13 from "@/components/card13";
 import  Card14 from "@/components/card14";
+import  Animacion from "@/components/animacion";
 
 function Responsive() {
     var settings = {
@@ -53,6 +54,7 @@ function Responsive() {
       ]
     };
     return (
+      <Animacion delay={0.5}>
       <div className="slider-container" >
         <Slider {...settings} style={{ height: '450px' }} className="slider">
           <div>
@@ -99,6 +101,7 @@ function Responsive() {
           </div>
         </Slider>
       </div>
+      </Animacion>
       
     );
   }

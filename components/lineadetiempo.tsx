@@ -1,4 +1,5 @@
 import React from 'react';
+import  Animacion from "@/components/animacion";
 
 interface Stage {
   title: string;
@@ -23,7 +24,9 @@ const ProcessTimeline: React.FC = () => {
       {stages.map((stage, index) => (
         <div key={index} className={`timeline-item ${index % 2 === 0 ? 'right' : 'left'}`}>
           <div className="timeline-content">
+          <Animacion delay={0.5}>
             <img src={stage.imgSrc} alt={stage.title} className="timeline-img" />
+            </Animacion>
             <div className='text-line'>
             <h3 className="timeline-title">{stage.title}</h3>
             <p className="timeline-description">{stage.description}</p>

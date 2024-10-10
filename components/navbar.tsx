@@ -28,13 +28,13 @@ export const Navbar = () => {
     </div>
 
     <NextLink className="logo-posit" href="/">
-    <img src="/assets/logo-abra-dd.png" alt="Logo" className="logo"/> 
+    <img src="/assets/logo-nuevo-abra.png" alt="Logo" className="logo"/> 
     </NextLink>
 
     <div className="hidden sm:flex gap-2">
       <Link href="/contacto" className="item-nav">
         CONTACTO
-      </Link>
+      </Link> 
     </div>
   </NavbarContent>
  

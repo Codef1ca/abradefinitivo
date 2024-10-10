@@ -103,7 +103,7 @@ const HorizontalScroll = () => {
           </div>
           <div className="item-p">Los integrantes de la nombrada en primer<br></br> término, <span className="negrita">aportaron una gran infraestructura de<br></br>
            producción</span>, basado en muy buenas fincas,<br></br> empaques y maquinaria. Los integrantes de la<br></br> 
-            firma Abra Chica SRL <span className="negrita">aportaron sus<br></br> conocimientos y experiencia</span> en la producción<br></br>, empaque y comercialización de hortalizas.
+            firma Abra Chica SRL <span className="negrita">aportaron sus<br></br> conocimientos y experiencia</span> en la producción,<br></br> empaque y comercialización de hortalizas.
           </div>
           <div className="item">
           <Image
@@ -130,19 +130,19 @@ const HorizontalScroll = () => {
         </div>
       </div>
       <div className='botones-scroll'>
-      <button onClick={scrollToLeft}> <Image
-          width={40}
+      <button onClick={scrollToLeft} className='icon-le'> <Image
+          width={25}
           height={40}
           alt="NextUI hero Image with delay"
-          src="/assets/icon-izquierda.png"
+          src="/assets/icon-izquierda2.png"
           className="icon-le"
           /></button>
       <button onClick={scrollRight}> <Image
-          width={40}
+          width={25}
           height={40}
           alt="NextUI hero Image with delay"
-          src="/assets/icon-derecha.png"
-          className="icon-le"
+          src="/assets/icon-derecha2.png"
+          className="icon-le2"
           /></button>
           </div>
     </div>
