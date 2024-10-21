@@ -27,7 +27,7 @@ export default function App() {
     <p className="p-miembro">Gerente de Comercialización</p>
   </div>
   <div className="miembro-equipo">
-    <h2 className="titulo-miembro">Cpn. Tamara Mercuri</h2>
+    <h2 className="titulo-miembro">Lic. Tamara Mercuri</h2>
     <p className="p-miembro">Gerente Financiera</p>
   </div>
   <div className="miembro-equipo">

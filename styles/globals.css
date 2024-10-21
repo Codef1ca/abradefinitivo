@@ -918,7 +918,7 @@ flex-direction: column;}
 }
 
 .contenedor-back{
-    background-image: url(/assets/back-home.png);
+    /* background-image: url(/assets/back-home.png); */
     background-size:cover;
     background-repeat: no-repeat;
     margin-right: -30px !important;
