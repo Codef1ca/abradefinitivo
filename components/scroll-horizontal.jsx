@@ -122,7 +122,7 @@ const HorizontalScroll = () => {
           <br></br>
           <div className="item-p">Es así que ABRA DE SOL S.R.L. es una empresa<br></br> <span className="negrita">moderna, profesionalizada
              y altamente<br></br> tecnificada en los distintos sectores de la misma,</span><br></br> con un sólido y experimentado
-              managment que<br></br> se evidencia en el permanente crecimiento de la<br></br> empresa y su <span className="negrita">excelente calidad
+              management que<br></br> se evidencia en el permanente crecimiento de la<br></br> empresa y su <span className="negrita">excelente calidad
                en los productos.</span>
           </div>
           </div>
